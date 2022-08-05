@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+}
+.tv-container {
+    display: flex;
+    height: 15rem;
+    width: 25rem;
+    background-color: black;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.block {
+    
+    background-color: black;
+    color: white;
+    height: 380px;
+    width: 170px;
+    margin: auto;
+    margin-top: 30px;
+   
+}
+
+#num-pad{
+    display: grid;
+    height: 300px;
+    width: 150px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    align-self: center;
+    justify-self: center;
+    margin: auto;
+}
+.block-navigate{
+    position: relative;
+    top: -380px;
+}
+.tv-light {
+    display: block;
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    margin-top: 200px;
+    border-radius: 50px;
+    align-self: center;
+    justify-self: center;
+    position: relative;
+    left: -32px;
+    transition: 2s;
+    padding-top: 10px;
+    
+}
+.tv-on{
+    background-color: rgb(38, 241, 99);
+    display: block;
+    height: 15px;
+    width: 15px;
+    margin-top: 200px;
+    border-radius: 50px;
+    align-self: center;
+    justify-self: center;
+    position: relative;
+    left: -13px;
+    transition: 2s;
+    padding-top: 10px;
+}
+.remote-light {
+    display: flex;
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    border-radius: 50px;
+    margin: auto;
+    transition: 2s;
+    padding-top: 10px;
+
+}
+.remote-on {
+    background-color: rgb(38, 241, 99);
+    display: flex;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    margin: auto;
+    transition: 2s;
+    padding-top: 10px;
+
+}
+.none{
+
+    height: 15px;
+    width: 15px;
+    padding-top: 10px;
+}
